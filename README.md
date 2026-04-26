@@ -120,4 +120,4 @@ pip install pandas geopandas geopy matplotlib mapclassify shapely openpyxl dataf
 ## Licencja
 
 Copyright (c) 2026 Agnieszka Trzciałkowska. Wszystkie prawa zastrzeżone.
-Kopiowanie, rozpowszechnianie oraz wykorzystywanie kodu bez zgody autora jest zabronione.
+Kopiowanie, rozpowszechnianie oraz wykorzystywanie kodu oraz mapy bez zgody autora jest zabronione.
