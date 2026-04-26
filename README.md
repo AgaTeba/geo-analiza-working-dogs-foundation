@@ -45,7 +45,7 @@ Proces analizy został podzielony na trzy główne etapy:
 ### 1. Pozyskanie i transformacja danych (ETL)
 
 1. **Źródła danych**
-   Dane statystyczne dotyczące liczby adopcji oraz lokalizacji placówek zostały pozyskane bezpośrednio z rejestrów Głównego Inspektoratu Weterynarii (GIW) - znajdują się w folderze `/dane`
+   Dane statystyczne dotyczące liczby adopcji oraz lokalizacji placówek zostały pozyskane bezpośrednio z rejestrów Głównego Inspektoratu Weterynarii (GIW) (udostęnione na mój wniosek o udostęnienie danych publicznych) - znajdują się w folderze `/dane`
    Dane dotyczące lokalizacji trenerów i działalności Fundacji pochodzą z zasobów Working Dogs Foundation - [Link](https://github.com/bi-ngo-wolontariat/BI_NGO-2026-Working-Dogs-Foundation/blob/main/README.md)
    Dane dotyczące lokalizacji powiatów - z zewnętrznego źródła GeoJSON: [Link](https://raw.githubusercontent.com/ppatrzyk/polska-geojson/master/powiaty/powiaty-min.geojson)
 
@@ -54,12 +54,12 @@ Proces analizy został podzielony na trzy główne etapy:
 
 3. **Geokodowanie**
    Autorski skrypt Python do automatycznej konwersji adresów tekstowych na współrzędne geograficzne (latitude, longitude).
-   * [geokodowanie_schronisk.py](geokodowanie_schronisk.py)
-   * [geokodowanie_trenerow.py](geokodowanie_trenerow.py)
+   * [geokodowanie_schronisk.py](skrypty/geokodowanie_schronisk.py)
+   * [geokodowanie_trenerow.py](skrypty/geokodowanie_trenerow.py)
 
 4. **Agregacja**
    Dane o liczbie adopcji w schroniskach zostały zsumowane do poziomu powiatów w celu stworzenia czytelnego obrazu natężenia zjawiska. Przypisanie nazw powiatów do poszczególnych rekordów na podstawie adresów schronisk.
-   * [przypisane_nazw_powiatu.py](przypisane_nazw_powiatu.py)
+   * [przypisane_nazw_powiatu.py](skrypty/przypisane_nazw_powiatu.py)
 
 5. **Serializacja**
    Przetworzone dane zostały zapisane w formacie **GEOJSON**, co umożliwiło szybkie wczytywanie współrzędnych w kolejnych etapach bez konieczności powtarzań zapytań do API.
@@ -77,16 +77,16 @@ Proces analizy został podzielony na trzy główne etapy:
 
 4. **Wskaźnik KPI**
    Utworzenie skryptu liczącego obszar wolny od działań Fundacji. Obliczono różnicę między łączną powierzchnią izochron (przez rozpuszczanie), a całkowitą powierzchnią kraju, wyznaczając procentowy brak pokrycia usługami Fundacji.
-   * skrypt: [KPI.py](KPI.py)
+   * skrypt: [KPI.py](skrypty/KPI.py)
 
    Utworzenie skryptu tworzącego tabelę Top 10 powiatów wg liczby adopcji, ułatwiająca szybką identyfikację priorytetowych obszarów
-   * skrypt: [tabela_top10_adopcji.py](tabela_top10_adopcji.py)
+   * skrypt: [tabela_top10_adopcji.py](skrypty/tabela_top10_adopcji.py)
 
 ### 3. Wizualizacja i wnioskowanie
 
 1. **Wizualizacja**
    Autorski skrypt łączący pliki cząstkowe (GeoJSON, xlsx) w jedną mapę. W celu prawidłowej percepcji mapy na obrazie wynikowym skryptu dodano tytuł, legendę oraz skalę mapy, zachowując zgodność z zasadami kartografii. Jest to zaawansowana wizualizacja przestrzenna łącząca metodę kartogramu (liczba adopcji w powiatach) z metodą sygnaturową punktową (lokalizacje trenerów) oraz metodą izochron (zasięg dojazdu 60 min). Skrypt integruje dane geograficzne z elementami Business Intelligence (KPI) w celu identyfikacji luk w sieci wsparcia Fundacji.
-   * [geo_analiza_wdf_2024.py](geo_analiza_wdf_2024.py)
+   * [geo_analiza_wdf_2024.py](skrypty/geo_analiza_wdf_2024.py)
 
 2. **Wnioski**
    Analiza wskazuje na istnienie powiatów o bardzo wysokiej aktywności adopcyjnej (powyżej 500-1000 psów rocznie), które znajdują się całkowicie poza zasięgiem operacyjnym trenerów (poza strefą 1h dojazdu). 
