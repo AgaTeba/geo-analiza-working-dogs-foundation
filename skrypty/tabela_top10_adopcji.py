@@ -25,7 +25,7 @@ OUTPUT_IMAGE = os.path.join(OUTPUT_DIR, "top10_adopcje_tabela.png")
 COL_ADOPCJE = 'Liczba zwierząt adoptowanych w 2024 roku'
 
 
-# --- FUNKCJE POMOCNICZE (Twoja Stylizacja) ---
+# --- FUNKCJE POMOCNICZE ---
 def stylizuj_tabele(styler, data):
     """
     Definiuje style CSS zgodnie z wytycznymi wizualnymi projektu.
