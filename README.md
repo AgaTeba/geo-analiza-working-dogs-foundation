@@ -1,6 +1,5 @@
 
-# Geoanaliza potencjału rozwoju sieci trenerów 
-#Adopsiaki Working Dogs Foundation
+# Geoanaliza potencjału rozwoju sieci trenerów #Adopsiaki Working Dogs Foundation
 
 Projekt realizowany w ramach **BI_NGO 2026** dla Working Dogs Foundation
 [Link](https://bingo.jezykdanych.pl/)
