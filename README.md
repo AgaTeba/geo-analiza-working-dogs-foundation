@@ -3,7 +3,7 @@
 
 Projekt realizowany w ramach **BI_NGO 2026** dla Working Dogs Foundation
 
-Analiza przestrzenna i statystyczna rozwoju sieci Adopsiaki, która skupia się na pomocy rodzinom, adoptującym psy ze schronisk oraz organizacji warsztatów i eventów przez trenerów w całej Polsce. 
+Analiza przestrzenna i statystyczna rozwoju Fundacji, która skupia się na pomocy rodzinom adoptującym psy ze schronisk oraz organizacji warsztatów i eventów przez trenerów w całej Polsce. [Link](https://workingdogs.pl/)
 
 **Cel:** Głównym celem analizy było zidentyfikowanie korelacji między liczbą adopcji psów w 2024 roku (dane GIW) a realnym zasięgiem wsparcia oferowanego przez sieć trenerów Fundacji Working Dogs. 
 Projekt służy jako narzędzie decyzyjne do optymalizacji rekrutacji nowych trenerów oraz planowania działań edukacyjnych w regionach o największym zapotrzebowaniu.
