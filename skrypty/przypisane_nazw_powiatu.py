@@ -37,7 +37,7 @@ def main():
         return
 
     # Ujednolicenie układów współrzędnych (CRS)
-    # Aby spatial join zadziałał, oba pliki muszą mieć identyczny "język" mapy
+    # Aby spatial join zadziałał, oba pliki muszą mieć identyczny układ
     if schroniska.crs != powiaty.crs:
         schroniska = schroniska.to_crs(powiaty.crs)
 
