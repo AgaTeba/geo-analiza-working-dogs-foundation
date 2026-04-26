@@ -54,7 +54,7 @@ Proces analizy został podzielony na trzy główne etapy:
    Przygotowanie danych statystycznych do analizy (Excel i Power Query). Oczyszczenie danych, złączenie danych z wielu plików, usunięcie niepotrzebnych rekordów, wyciągnięcie czystych adresów.
 
 3. **Geokodowanie**
-   Autorski skrypt Python do automatycznej konwersji adresów tekstowych na współrzędne geograficzne (latitude, longitude).
+   Skrypt Python do automatycznej konwersji adresów tekstowych na współrzędne geograficzne (latitude, longitude).
    * [geokodowanie_schronisk.py](skrypty/geokodowanie_schronisk.py)
    * [geokodowanie_trenerow.py](skrypty/geokodowanie_trenerow.py)
 
