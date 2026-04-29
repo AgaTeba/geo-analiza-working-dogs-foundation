@@ -92,7 +92,7 @@ Proces analizy został podzielony na trzy główne etapy:
 2. **Wnioski**
    Analiza wskazuje na istnienie powiatów o bardzo wysokiej aktywności adopcyjnej (powyżej 500-1000 psów rocznie), które znajdują się całkowicie poza zasięgiem operacyjnym trenerów (poza strefą 1h dojazdu). 
    
-   Zielone strefy (izochrony) pokrywają znaczną część zachodniej i centralnej Polski, co potwierdza dobre osadzenie projektu #Adopsiaki w tych regionach, jednak wschodnia część kraju wykazuje duży, niezagospodarowany potencjał. Potencjał rozwoju Fundacji w Polsce: **79% obszaru do zagospodarowania** przez działalność Fundacji.
+   Zielone strefy (izochrony) pokrywają znaczną część południowej i centralnej Polski, co potwierdza dobre osadzenie projektu #Adopsiaki w tych regionach, jednak wschodnia i zachodnia część kraju wykazuje duży, niezagospodarowany potencjał. Potencjał rozwoju Fundacji w Polsce: **79% obszaru do zagospodarowania** przez działalność Fundacji.
 
    Rejony o najwyższym nasyceniu adopcji to miejsca, gdzie zapotrzebowanie na warsztaty behawioralne i eventy edukacyjne jest największe, a obecnie nie jest w pełni zaspokojone, są to m.in. powiaty: **wieruszowski, bydgoski, augustowski, czarnkowsko - trzcianecki, m. Toruń, grudziądzki, choszczeński, ostrołęcki**. Obszary o wysokiej liczbie adopcji (kartogram) poza zasięgiem trenerów stanowią priorytet dla przyszłego rozwoju sieci #Adopsiaki, niesienia pomocy pomocy rodzinom z adopcją, warsztatów szkolnych i eventów firmowych.
 
